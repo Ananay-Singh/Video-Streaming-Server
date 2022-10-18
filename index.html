@@ -14,7 +14,7 @@
       <td>
         <h1>Upload File</h1>
         <form enctype="multipart/form-data" action="/" method="post">
-          <input type="file" name="file">
+          <input type="file" name="file" >
           <br>
           <input type="Submit" value="Upload">
         </form>
@@ -23,7 +23,7 @@
       <td>
         <h1>Stream</h1>
         <form action="/stream" method="post">
-          <input type="text" name="NameOfVideo">
+          <input type="text" name="NameOfVideo" placeholder="Name Of File">
           <br>
           <button type="submit" name="button">Stream</button>
         </form>
@@ -32,7 +32,7 @@
       <td>
         <h1>Download</h1>
         <form action="/download" method="post">
-          <input type="text" name="NameOfVideo">
+          <input type="text" name="NameOfVideo" placeholder="Name Of File">
           <br>
           <button type="submit" name="button">Download</button>
 
